@@ -62,18 +62,17 @@
       android:src="@drawable/labrador" />
 
     <TextView
-      android:id="@+id/description"
-      style="@style/TextAppearance.AppCompat.Body1"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:layout_marginLeft="@dimen/dog_detail_description_margin_left"
-      android:layout_marginTop="0dp"
-      android:layout_marginRight="@dimen/dog_detail_description_margin_right"
-      android:layout_marginBottom="@dimen/dog_detail_description_margin_bottom"
-      android:autoLink="web"
-      android:text="The sweet-faced, lovable Labrador Retriever is America’s most popular
-                dog breed. Labs are friendly, outgoing, and high-spirited companions."
-      tools:ignore="HardcodedText" />
+        android:id="@+id/description"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dog_detail_description_margin_left"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="@dimen/dog_detail_description_margin_right"
+        android:layout_marginBottom="@dimen/dog_detail_description_margin_bottom"
+        android:autoLink="web"
+        android:text="The sweet-faced, lovable Labrador Retriever is America’s most popular dog breed. Labs are friendly, outgoing, and high-spirited companions."
+        tools:ignore="HardcodedText" />
 
   </LinearLayout>
 
